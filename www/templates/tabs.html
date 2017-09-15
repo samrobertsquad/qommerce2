@@ -27,21 +27,7 @@ navigation history that also transitions its views in and out.
 
 		<ion-nav-view name="mainContent"></ion-nav-view>
 
-	    <ion-tabs class="tabs-icon-top tabs-color-active-positive {{$root.hideTabs}}">
-			<!-- Home Tab -->
-			<ion-tab title="{{$root.appLanguage.HOME_TEXT}}" icon-off="ion-ios-home-outline" icon-on="ion-ios-home" href="#/tab/home">
-			</ion-tab>
-			<!-- Categories Tab -->
-			<ion-tab title="{{$root.appLanguage.CATEGORIES_TEXT}}" icon-off="ion-social-buffer-outline" icon-on="ion-social-buffer" href="#/tab/categories">
-			</ion-tab>
-			<!-- Search Tab -->
-			<ion-tab title="{{$root.appLanguage.SEARCH_TEXT}}" icon-off="ion-ios-search" icon-on="ion-ios-search" href="#/tab/search">
-			</ion-tab>
-			
-			<!-- Menu Tab -->
-			<ion-tab title="{{$root.appLanguage.MORE_TEXT}}" icon-off="ion-more" icon-on="ion-more" ng-click="toggleLeftSideMenu()">
-			</ion-tab>
-		</ion-tabs>
+	    
 	</ion-side-menu-content>
 
 	<ion-side-menu side="left" class="is-slidemenu">
